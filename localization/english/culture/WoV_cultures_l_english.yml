@@ -1,0 +1,10 @@
+﻿l_english:
+#Norway group
+ norway_group:0 "Norwegian"
+ norway_group_collective_noun:0 "Norwegians"
+ heruler:0 "Heruler"
+ heruler_collective_noun:0 "Heruler"
+ trondelager:0 "Tröndelager"
+ trondelager_collective_noun:1 "Tröndelager"
+ lofotes:0 "Lofotes"
+ lofotes_collective_noun:0 "Lofotes"
