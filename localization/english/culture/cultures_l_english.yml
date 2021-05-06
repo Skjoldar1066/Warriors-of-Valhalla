@@ -1,0 +1,30 @@
+﻿l_english:
+#Norwegian group
+ norwegian_group:0 "Norwegian"
+ norwegian_group_collective_noun:0 "Norwegians"
+ heruler:0 "Heruler"
+ heruler_collective_noun:0 "Heruler"
+ trondelager:0 "Tröndelager"
+ trondelager_collective_noun:1 "Tröndelager"
+ lofotes:0 "Lofotes"
+ lofotes_collective_noun:0 "Lofotes"
+
+#Swedish group
+ swedish_group:0 "Swedish"
+ swedish_group_collective_noun:0 "Swedes"
+ gots:0 "Gots"
+ gots_collective_noun:0 "Gots"
+ gaets:0 "Gaets"
+ gaets_collective_noun:1 "Gaets"
+ svear:0 "Svear"
+ svear_collective_noun:0 "Svear"
+
+#Danish group
+ danish_group:0 "Danish"
+ danish_group_collective_noun:0 "Danes"
+ jutes:0 "Jute"
+ jutes_collective_noun:0 "Jutes"
+ teutons:0 "Teutonic"
+ teutons_collective_noun:1 "Teutons"
+ angles:0 "Angle"
+ angles_collective_noun:0 "Angles"
