@@ -1,0 +1,12 @@
+﻿l_english:
+ scandinavian_government: "Scandinavian Tribal"
+ scandinavian_government_realm: "Scandinavian Tribal"
+ scandinavian_government_adjective: "Scandinavian"
+ scandinavian_government_desc: "In Scandinavia, status and opinion means everything. Even if a leader united The North Sea, having bad relations with your vassals may decrease your authority. So to be the leader of the north, one must earn respect and status amongst the others"
+
+ LOW_DYNASTY_SPLENDOR: "Unknown dynasty"
+ OK_DYNASTY_SPLENDOR: "Less known dynasty"
+ AVERAGE_DYNASTY_SPLENDOR: "Respectable dynasty"
+ HIGH_DYNASTY_SPLENDOR: "Well-Known dynasty"
+ HIGHEST_DYNASTY_SPLENDOR: "Legendary dynasty"
+ government_can_raid_rule: "Allows the [raiding|E] of foreign [counties|E] for loot"
