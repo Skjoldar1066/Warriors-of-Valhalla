@@ -1,0 +1,109 @@
+﻿scandinavian_government = {
+	create_cadet_branches = yes
+	rulers_should_have_dynasty = yes
+	dynasty_named_realms = no
+
+	primary_holding = castle_holding
+	required_county_holdings = { castle_holding city_holding church_holding }
+
+
+	flag = government_can_raid_rule
+
+	prestige_opinion_override = { -10 0 5 10 15 20 }
+
+	opinion_of_liege = {
+		scope:vassal = {
+			if = {
+				limit = {
+					scope:liege.dynasty = {
+						dynasty_prestige_level <= 2
+					}
+				}
+				value = -20
+			}
+			else_if = {
+				limit = {
+					scope:liege.dynasty = {
+						dynasty_prestige_level <= 4
+					}
+				}
+				value = -10
+			}
+			else_if = {
+				limit = {
+					scope:liege.dynasty = {
+						dynasty_prestige_level <= 6
+					}
+				}
+				value = 10
+			}
+			else_if = {
+				limit = {
+					scope:liege.dynasty = {
+						dynasty_prestige_level <= 8
+					}
+				}
+				value = 20
+			}
+			else_if = {
+				limit = {
+					scope:liege.dynasty = {
+						dynasty_prestige_level <= 11
+					}
+				}
+				value = 30
+			}
+		}
+	}
+
+	opinion_of_liege_desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					scope:liege.dynasty = {
+						dynasty_prestige_level <= 2
+					}
+				}
+				desc = "LOW_DYNASTY_SPLENDOR"
+			}
+			triggered_desc = {
+				trigger = {
+					scope:liege.dynasty = {
+						dynasty_prestige_level <= 4
+					}
+				}
+				desc = "OK_DYNASTY_SPLENDOR"
+			}
+			triggered_desc = {
+				trigger = {
+					scope:liege.dynasty = {
+						dynasty_prestige_level <= 6
+					}
+				}
+				desc = "AVERAGE_DYNASTY_SPLENDOR"
+			}
+			triggered_desc = {
+				trigger = {
+					scope:liege.dynasty = {
+						dynasty_prestige_level <= 8
+					}
+				}
+				desc = "HIGH_DYNASTY_SPLENDOR"
+			}
+			triggered_desc = {
+				trigger = {
+					scope:liege.dynasty = {
+						dynasty_prestige_level <= 11
+					}
+				}
+				desc = "HIGHEST_DYNASTY_SPLENDOR"
+			}
+		}
+	}
+
+	vassal_contract = {
+		scandinavian_government_obligations
+	}
+
+	color = { 0 60 60 }
+}
